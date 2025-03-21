@@ -58,3 +58,4 @@ if st.button("Predecir"):
     prediction = str(model.predict([[val1, dic_el[val2], dic_et[val3], val4,dic_cs[val5],dic_er[val6],dic_cl[val7]]])[0])
     pred_class = prediction
     st.write("Prediction:", pred_class)
+    #Link https://render-project-with-streamlit.onrender.com/
